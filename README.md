@@ -1,6 +1,15 @@
 # Wallet App (MVP)
 
-**Live demo:** [https://vadimoffski.github.io/get_report/](https://vadimoffski.github.io/get_report/) (GitHub Pages; enable **Settings → Pages → GitHub Actions** on first setup if the site does not appear yet.)
+**Live demo:** [https://vadimoffski.github.io/get_report/](https://vadimoffski.github.io/get_report/) (GitHub Pages.)
+
+### If GitHub Actions does not run
+
+If workflows fail with a **billing / account locked** message, GitHub is blocking Actions on the account (fix under **Settings → Billing** for the user or organization). You can still publish the site **without Actions**:
+
+1. Run `npm run deploy:gh-pages` (builds with `/get_report/` base and pushes `dist` to the `gh-pages` branch).
+2. In the repo: **Settings → Pages → Build and deployment → Source**, choose **Deploy from a branch**, branch **`gh-pages`**, folder **`/ (root)`**.
+
+When billing is resolved, you can switch the Pages source back to **GitHub Actions** to use the workflow in `.github/workflows/deploy-github-pages.yml`.
 
 Mobile-first **wallet UI** built as a test assignment: a two-screen flow inspired by Apple Wallet / Apple Card—transaction list plus full transaction details. Data is **JSON-driven**; business rules (balances, dates, seasonal points) are implemented in TypeScript.
 
