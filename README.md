@@ -1,5 +1,7 @@
 # Wallet App (MVP)
 
+**Live demo:** [https://vadimoffski.github.io/get_report/](https://vadimoffski.github.io/get_report/) (GitHub Pages; enable **Settings → Pages → GitHub Actions** on first setup if the site does not appear yet.)
+
 Mobile-first **wallet UI** built as a test assignment: a two-screen flow inspired by Apple Wallet / Apple Card—transaction list plus full transaction details. Data is **JSON-driven**; business rules (balances, dates, seasonal points) are implemented in TypeScript.
 
 ## Features
