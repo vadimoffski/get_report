@@ -1,0 +1,124 @@
+{
+  "cardData": {
+    "limit": 1500,
+    "balance": 17.3,
+    "paymentDue": false
+  },
+  "transactions": [
+    {
+      "id": "1",
+      "type": "credit",
+      "amount": 14.06,
+      "name": "Apple",
+      "description": "Card Number Used",
+      "date": "2026-03-30",
+      "icon": "apple",
+      "iconBgColor": "#2d2d2d",
+      "pending": true,
+      "authorizedUser": "Diana",
+      "cardNumberUsed": "•••• 4242",
+      "percentage": 3
+    },
+    {
+      "id": "2",
+      "type": "payment",
+      "amount": 174.0,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National...",
+      "date": "2026-03-29",
+      "icon": "apple",
+      "iconBgColor": "#8B6BBD"
+    },
+    {
+      "id": "3",
+      "type": "credit",
+      "amount": 3.24,
+      "name": "Apple",
+      "description": "Card Number Used",
+      "date": "2026-03-29",
+      "icon": "apple",
+      "iconBgColor": "#2d2d2d",
+      "authorizedUser": "Diana",
+      "cardNumberUsed": "•••• 4242",
+      "percentage": 3
+    },
+    {
+      "id": "4",
+      "type": "payment",
+      "amount": 99.71,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National...",
+      "date": "2026-03-27",
+      "icon": "apple",
+      "iconBgColor": "#8B6BBD"
+    },
+    {
+      "id": "5",
+      "type": "payment",
+      "amount": 73.58,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National...",
+      "date": "2026-03-26",
+      "icon": "apple",
+      "iconBgColor": "#8B6BBD"
+    },
+    {
+      "id": "6",
+      "type": "credit",
+      "amount": 21.61,
+      "name": "IKEA",
+      "description": "Round Rock, TX",
+      "date": "2026-03-22",
+      "icon": "shopping-cart",
+      "iconBgColor": "#1a5dbb",
+      "location": "Round Rock, TX",
+      "percentage": 2
+    },
+    {
+      "id": "7",
+      "type": "credit",
+      "amount": 73.58,
+      "name": "Target",
+      "description": "Cedar Hill, TX",
+      "date": "2026-03-20",
+      "icon": "bullseye",
+      "iconBgColor": "#ffffff",
+      "location": "Cedar Hill, TX",
+      "percentage": 2
+    },
+    {
+      "id": "8",
+      "type": "credit",
+      "amount": 8.45,
+      "name": "Starbucks",
+      "description": "Downtown, TX",
+      "date": "2026-03-19",
+      "icon": "apple",
+      "iconBgColor": "#1c1c1e",
+      "location": "Austin, TX",
+      "percentage": 1
+    },
+    {
+      "id": "9",
+      "type": "payment",
+      "amount": 50.0,
+      "name": "Payment",
+      "description": "From JPMorgan Chase Bank National...",
+      "date": "2026-03-15",
+      "icon": "apple",
+      "iconBgColor": "#8B6BBD"
+    },
+    {
+      "id": "10",
+      "type": "credit",
+      "amount": 19.99,
+      "name": "Amazon",
+      "description": "Online order",
+      "date": "2026-02-10",
+      "icon": "shopping-cart",
+      "iconBgColor": "#232f3e",
+      "percentage": 1
+    }
+  ]
+}
+
